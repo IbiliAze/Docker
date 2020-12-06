@@ -1,0 +1,13 @@
+h1 {
+    color: darkorange;
+}
+
+img {
+    width: 250px;
+}
+
+body {
+    color: darkgray;
+    font-family: arial;
+    max-width: 650px;
+}

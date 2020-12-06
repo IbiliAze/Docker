@@ -1,0 +1,1 @@
+console.log('Client sile JS file is loaded')
