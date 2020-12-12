@@ -226,6 +226,25 @@ lxc launch myubuntu myubuntu-cont -p profile2 #launch from profile
 
 lxc storage create zfs-test zfs source=dev/sdb1
 
+lxc storage delete zfs-test
+
+lxc storage show zfs-test
+
+lxc storage list
+
+lxc storage info btrfs-test
+
+
+{Storage Pool: BTRFS}
+lxd init
+>Would you like to use LXD clustering? no
+>Do you want to configure a new storage pool? yes
+...
+lxc storage create btrfs-test btrfs source=/dev/sdb1
+lxc storage list
+lxc storage info btrfs-test
+lxc storage show btrfs-test
+
 
 
 [ Exec ]
